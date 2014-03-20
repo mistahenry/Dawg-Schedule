@@ -1,0 +1,21 @@
+In order to give myself the best class schedule possible, I wrote
+an algorithm for parsing the UGA static registration reports and
+generating possible schedules based on my time constraints.
+
+A version is up and running at dawgschedule.com
+The schedule generation is pretty self explanatory on the site.
+
+A few things worth noting: my approach towards ajax is quite flawed.
+I should have just been passing json rather than html on the callbacks.
+Could definitely use a rewrite.
+
+DBPopulator handles scraping the courses from the static listing website.
+It was necessary to modify the trust to get past the SSL, but I only modify
+it inside of this populator (by modifying the factory itself).
+
+Finally, this site never really received any love on the front-end because
+it was more of a proof of concept/problem solving challenge than anything else.
+
+If the switch to the new Oasis doesn't affect the static listings (currently
+no new listings for the Fall of 2014 have been posted), I may get around to 
+making the site open for more people.

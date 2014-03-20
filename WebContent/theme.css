@@ -1,0 +1,32 @@
+.courseAccordion{
+	width:56% !important;
+	float:left;
+	margin-right: 10px;
+	margin-left:10px;	
+}
+.currentCourses{
+	width:40%;
+	float:left;
+	margin-left:10px;
+	margin-right: 10px;	
+}
+.generate{
+	margin-top: 10px;
+}
+.header{
+	text-align:center;
+}
+.description{
+	text-align:center;
+}
+.error{
+	color:red;
+}
+.schedules table{
+	margin:auto;
+	min-width:500px;
+}
+.credits{
+	margin:auto;
+	text-align:center;
+}
